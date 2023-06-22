@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0 200px;
+    align-items: center;
+    font-family: 'Kablammo', cursive;
+}
+
+.imagem{
+    width: 15%;
+}
+
+.imagem-exc{
+    width: 15%;
+    margin: 0 90px 0 0;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.apresentacao{
+    background-image: linear-gradient(black,#912121);
+    padding: 40px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+
+.imagem-loja{
+    width: 20%;
+}
+
+/*to right = para a direita e to left = para esquerda*/
+.secao{
+    padding: 240px 0 100px;
+    background-image: linear-gradient(#912121,#e9602b);
+}
+
+.produto{
+    padding: 80px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.textos-centralizados{
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
+.texto{
+    font-size: 30px;
+}
+
+.texto-titulo{
+    font-size: 50px;
+}
